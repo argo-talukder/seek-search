@@ -6,15 +6,19 @@ server:
 engines:
   - name: google
     engine: google
+    shortcut: g
     active: true
   - name: bing
     engine: bing
+    shortcut: bi
     active: true
   - name: duckduckgo
     engine: duckduckgo
+    shortcut: ddg
     active: true
   - name: wikipedia
     engine: wikipedia
+    shortcut: wp
     active: true
 
 ui:
