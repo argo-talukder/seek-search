@@ -24,3 +24,7 @@ engines:
 ui:
   default_locale: "en"
   query_in_title: true
+  theme_args:
+    simple:
+      # কাস্টম সিএসএস ফাইলটি থিমের সাথে কানেক্ট করা
+      custom_css: "themes/simple/css/custom.css"
