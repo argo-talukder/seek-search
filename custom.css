@@ -1,10 +1,11 @@
-/* লোগোর টেক্সট SearXNG থেকে বদলে Seek করা */
+/* মেইন পেজের SearXNG লোগো টেক্সট লুকিয়ে 'Seek' লেখা */
 #search_logo h1 {
     visibility: hidden;
     position: relative;
 }
+
 #search_logo h1::after {
-    content: "Seek"; /* তোমার পছন্দের নাম */
+    content: "Seek"; /* তোমার কাস্টম নাম */
     visibility: visible;
     position: absolute;
     top: 0;
@@ -12,5 +13,22 @@
     right: 0;
     font-weight: bold;
     font-style: italic;
-    color: #4f46e5; /* সুন্দর ভায়োলেট/ব্লু শেড */
+    color: #4f46e5; /* সুন্দর একটি ব্লু-ভায়োলেট কালার */
+}
+
+/* সার্চ রেজাল্ট পেজের ওপরের ছোট লোগোটিও পরিবর্তন করা */
+.title h1 {
+    visibility: hidden;
+    position: relative;
+}
+
+.title h1::after {
+    content: "Seek";
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4f46e5;
 }
