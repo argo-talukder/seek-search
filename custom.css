@@ -1,0 +1,16 @@
+/* লোগোর টেক্সট SearXNG থেকে বদলে Seek করা */
+#search_logo h1 {
+    visibility: hidden;
+    position: relative;
+}
+#search_logo h1::after {
+    content: "Seek"; /* তোমার পছন্দের নাম */
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    font-style: italic;
+    color: #4f46e5; /* সুন্দর ভায়োলেট/ব্লু শেড */
+}
