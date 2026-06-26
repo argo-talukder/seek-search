@@ -3,10 +3,6 @@ server:
   bind_address: "0.0.0.0"
   secret_key: "seek_secret_key_998877"
 
-brand:
-  title: "Seek"
-  description: "My Private Metasearch Engine"
-
 engines:
   - name: google
     engine: google
